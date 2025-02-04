@@ -1,0 +1,13 @@
+Summary of API Flow:
+
+Client sends an HTTP request to the controller.
+
+Controller processes the request and calls the Service Layer.
+
+Service calls the Repository Layer to interact with the database.
+
+Mapper converts data between DTO and Entity.
+
+Service returns the response to the Controller.
+
+Controller sends the final response back to the Client.
